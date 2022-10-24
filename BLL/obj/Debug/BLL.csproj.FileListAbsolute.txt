@@ -1,0 +1,17 @@
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\bin\Debug\BLL.dll.config
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\bin\Debug\BLL.dll
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\bin\Debug\BLL.pdb
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\bin\Debug\DTO.dll
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\bin\Debug\Entities.dll
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\bin\Debug\EntityFramework.dll
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\bin\Debug\DTO.pdb
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\bin\Debug\Entities.pdb
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\bin\Debug\Entities.dll.config
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\bin\Debug\EntityFramework.xml
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\obj\Debug\BLL.dll
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\BLL\obj\Debug\BLL.pdb

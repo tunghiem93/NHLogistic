@@ -1,0 +1,65 @@
+﻿@{
+    Layout = null;
+}
+@model  DTO.Order.OrderDTO
+<div class="row form-horizontal form-label-left" style="margin-bottom:15px;">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <fieldset style="width: 100%">
+                    <legend>THÔNG TIN CHUNG</legend>
+                    <div class="first-step-group-criteria" style="padding-top:10px; margin-bottom: 10px;">
+                        <div class="form-group row">
+                            <label class="col-sm-2">Tên danh mục <sub class="text-danger">(*)</sub></label>
+                            <div class="col-sm-10">
+                                @Html.HiddenFor(model => model.Id)
+                                @Html.TextBoxFor(model => model.Order_no, new { @class = "form-control", placeholder = "Mã", @autocomplete = "off" })
+                                @Html.ValidationMessageFor(model => model.Order_no, null, new { @class = "label label-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2">Tên khách hàng <sub class="text-danger">(*)</sub></label>
+                            <div class="col-sm-10">
+                                @Html.TextBoxFor(model => model.Customer_name, new { @class = "form-control", placeholder = "Tên khách hàng", @autocomplete = "off" })
+                                @Html.ValidationMessageFor(model => model.Customer_name, null, new { @class = "label label-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2">Địa chỉ nhận <sub class="text-danger">(*)</sub></label>
+                            <div class="col-sm-10">
+                                @Html.TextBoxFor(model => model.Receive_address, new { @class = "form-control", placeholder = "Địa chỉ", @autocomplete = "off" })
+                                @Html.ValidationMessageFor(model => model.Receive_address, null, new { @class = "label label-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2">Giá trị <sub class="text-danger">(*)</sub></label>
+                            <div class="col-sm-10">
+                                @Html.TextBoxFor(model => model.Total_amount, new { @class = "form-control", placeholder = "Giá trị", @autocomplete = "off" })
+                                @Html.ValidationMessageFor(model => model.Total_amount, null, new { @class = "label label-danger" })
+                            </div>
+                        </div>
+                        <div class="form-group row">
+                            <label class="col-sm-2">Ghi chú <sub class="text-danger">(*)</sub></label>
+                            <div class="col-sm-10">
+                                @Html.TextBoxFor(model => model.Note, new { @class = "form-control", placeholder = "Ghi chú", @autocomplete = "off" })
+                                @Html.ValidationMessageFor(model => model.Note, null, new { @class = "label label-danger" })
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <div class="text-right">
+                    <a href="@Url.Action("Index","Order")" class="btn btn-outline-secondary">Hủy</a>
+                    <button class="btn btn-outline-primary" type="submit">Lưu</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+       
+
+    })
+</script>

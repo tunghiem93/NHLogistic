@@ -1,0 +1,8 @@
+﻿@model DTO.Order.OrderDTO
+<div class="category-management">
+    @using (Html.BeginForm("Edit", "Order", FormMethod.Post, new { @id = "form-create", @class = "form-horizontal needs-validation", @enctype = "multipart/form-data" }))
+    {
+        @Html.Partial("_Form", Model)
+    }
+</div>
+

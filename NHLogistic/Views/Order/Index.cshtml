@@ -1,0 +1,69 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+@{
+}
+@model List<DTO.Order.OrderDTO>
+<div class="menu-management">
+   @* @Html.Partial("_breadcrumb", new Dictionary<string, string> { { "A", "Trang chủ" }, { "B", "Catalog" } }, new ViewDataDictionary { { "mHref", Url.Action("New", "CatalogManagement", new { area = "Admin" }) }, { "mShowButton", "true" } })*@
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="table-responsive m-t-40">
+                        <table id="config-table" class="table display table-bordered table-striped no-wrap">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Mã</th>
+                                    <th>Tên KH</th>
+                                    <th>Địa chỉ</th>
+                                    <th>Tổng</th>
+                                    <th>Thao Tác</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @if (Model != null && Model.Any())
+                                {
+                                    int _index = 1;
+                                    foreach (var item in Model)
+                                    {
+                                        <tr>
+                                            <td>@_index</td>
+                                            <td>@item.Order_no</td>
+                                            <td>@item.Customer_name</td>
+                                            <td>@item.Receive_address</td>
+                                            <td>
+                                                @item.Total_amount
+                                            </td>
+                                            <td>
+                                                <div class="btn-group btn-group-3 pull-right">
+                                                    <a href="@Url.Action("Edit","OrderManagement", new { Id = item.Id })" class="btn btn-default btn-sm" data-toggle="tooltip" data-placement="bottom" title="Cập nhật thông tin đơn hàng">
+                                                        <i class="fas fa-fw fa-pencil-alt text-success"></i>
+                                                    </a>
+                                                    <a href="@Url.Action("Destroy", "OrderManagement", new { Id = item.Id })" class="btn btn-default btn-sm" data-confirm="Bạn Có Chắc Chán ?" data-toggle="tooltip" data-placement="bottom" title="Xoá thông tin đơn hàng">
+                                                        <i class="fa fa-fw fa-trash text-danger"></i>
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        _index = _index + 1;
+                                    }
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $('#config-table').DataTable({
+        responsive: true
+    });
+</script>

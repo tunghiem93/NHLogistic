@@ -1,0 +1,8 @@
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\DTO\bin\Debug\DTO.dll
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\DTO\bin\Debug\DTO.pdb
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\DTO\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\DTO\obj\Debug\DTO.csproj.CoreCompileInputs.cache
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\DTO\obj\Debug\DTO.csproj.CopyComplete
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\DTO\obj\Debug\DTO.dll
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\DTO\obj\Debug\DTO.pdb
+C:\Users\tunx4\Desktop\NHLogistic\NHLogistic\DTO\obj\Debug\DTO.csproj.AssemblyReference.cache
